@@ -4,7 +4,18 @@
 read -p "Enter your server IP address: " server_ip
 read -p "Enter your worker port: " worker_port
 
-# Update and Install Prometheus and Grafana
+# Install dependencies
+sudo apt-get update
+sudo apt-get install -y curl software-properties-common
+
+# Add Grafana GPG key and repository
+sudo curl https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+
+# Add Prometheus repository
+sudo curl -s https://packagecloud.io/install/repositories/prometheus-rpm/release/script.deb.sh | sudo bash
+
+# Install Prometheus and Grafana
 sudo apt-get update
 sudo apt-get install -y prometheus grafana
 
