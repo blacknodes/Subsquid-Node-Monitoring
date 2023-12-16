@@ -8,4 +8,4 @@ chmod +x setup_prometheus_grafana.sh
 ```
 ## Import Dashboard in Grafana
 Open a web browser and navigate to http://<IP_ADDRESS>:3000, replacing <IP_ADDRESS> with your server ip.
-Import our dashoard.json file and youll see your Worker and server Status.
+Add a Prometheus Data Source and set url to http://localhost:9090 , save it, and Import our dashoard.json file and youll see your Worker and server Status.
