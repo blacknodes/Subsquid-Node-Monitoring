@@ -2,7 +2,7 @@
 # Subsquid-Node-Monitoring
 ## Install Prometheus And Grafana with Config
 ```
-wget https://github.com/blacknodes/subsquid-dashboard/blob/main/setup_prometheus_grafana.sh
+wget https://raw.githubusercontent.com/blacknodes/Subsquid-Node-Monitoring/main/setup_prometheus_grafana.sh
 chmod +x setup_prometheus_grafana.sh
 ./setup_prometheus_grafana.sh
 ```
