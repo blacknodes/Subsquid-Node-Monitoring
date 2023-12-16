@@ -6,6 +6,7 @@ wget https://raw.githubusercontent.com/blacknodes/Subsquid-Node-Monitoring/main/
 chmod +x setup_prometheus_grafana.sh
 ./setup_prometheus_grafana.sh
 ```
+Skip if already installed or if you want to configure in your own way.
 ## Import Dashboard in Grafana
 Open a web browser and navigate to http://<IP_ADDRESS>:3000, replacing <IP_ADDRESS> with your server ip.
 Add a Prometheus Data Source and set url to http://localhost:9090 ![image](https://github.com/blacknodes/Subsquid-Node-Monitoring/assets/85839823/30d913cb-7022-4e5c-81f6-97f612a9c7c6)
