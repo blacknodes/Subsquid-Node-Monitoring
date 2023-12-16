@@ -1,3 +1,4 @@
+![image](https://github.com/blacknodes/subsquid-dashboard/assets/85839823/ee096020-5dfe-416d-a0b0-4716e5b8f21f)
 # Subsquid-Node-Monitoring
 ## Install Prometheus And Grafana with Config
 ```
